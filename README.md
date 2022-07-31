@@ -30,4 +30,8 @@ After choose avatar, you will see a chat page (refresh page to update friends li
 <img src="https://github.com/korawichtawan/chat-app/blob/master/images/chat-page-2.JPG" width=35% height=35%>
 <p>
 Click on your friend's profile to talk with him/her.<br />
-<img src="https://github.com/korawichtawan/chat-app/blob/master/images/chat-message.JPG" width=35% height=35%>
+<img src="https://github.com/korawichtawan/chat-app/blob/master/images/chat-message.JPG" width=35% height=35%><br />
+
+# Demo
+https://user-images.githubusercontent.com/54474175/182030221-222c23f9-ac9b-47a8-9f27-0d8997677fb5.mp4
+
