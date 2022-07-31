@@ -1,7 +1,7 @@
 # chat-app
 This is a real-time chat application created with mongoDB, express, react, nodeJS and socket.io
 # How to run
-* Clone this repository and move to 'chat-app-master' directory.
+* Clone this repository and move to 'chat-app' directory.
 ```
 git clone https://github.com/korawichtawan/chat-app.git
 cd chat-app
