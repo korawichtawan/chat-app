@@ -1,0 +1,250 @@
+.form-container {
+    background-color: #f1f4c6;
+    width: 100vw;
+    height: 100vh;
+}
+
+.signup-form {
+    padding: 1.5rem;
+    font-size: 1rem;
+    min-width: 30vw;
+    min-height: 80vh;
+    position: absolute;
+    border-radius: 1.5rem;
+    top: 10vh;
+    left: 35vw;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.setAvatar {
+    background-color: #f1f4c6;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.avatar-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.avatar-desc {
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.avatars {
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.avatar {
+    width: 4rem;
+    height: 4rem;
+}
+
+.selected {
+    width: 8.5rem;
+    height: 8.5rem;
+}
+
+.avatar img {
+    width: 100%;
+    height: 100%;
+}
+
+.submit-button {
+    margin: 1rem;
+    height: 2rem;
+    width: 5rem;
+    border: white;
+    border-radius: 10px;
+    color: #373737;
+    background-color: #d6d0b8;
+}
+
+.chat {
+    background-color: #f1f4c6;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contacts {
+    background-color: aquamarine;
+    width: 25%;
+    height: 80vh;
+}
+
+.contact-container {
+    background-color: rgb(50, 67, 67);
+    height: 100%;
+}
+
+.contact-title {
+    background-color: rgb(82, 138, 119);
+    height: 10%;
+    text-align: center;
+    font-size: 1.5rem;
+    padding-top: 0.5rem;
+}
+
+.contact-lists {
+    background-color: rgb(97, 170, 145);
+    height: 67.5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 5%;
+    overflow: auto;  
+}
+
+.contact-list {
+    background-color: rgb(153, 245, 213);
+    height: 15%;
+    display: flex;
+    align-items: center;
+    gap: 5%;
+    padding-left: 5%;
+    margin: 2px 5% 0px 5%;
+}
+
+.contact-list:hover {
+    background-color: rgb(135, 214, 186);;
+}
+
+.contact-list p {
+    margin: auto 0 auto 0;
+}
+
+.contact-avatar {
+    height: 70%;
+}
+
+.contact-user {
+    background-color: rgb(72, 125, 106);
+    height: 22.5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5% 0% 0% 0%;
+}
+
+.contact-user p {
+    margin: auto 0 auto 0;
+    font-size: 1.25rem;
+}
+
+.user-avatar {
+    height: 65%;
+    width: 65%;
+}
+
+.welcome {
+    width: 55%;
+    height: 80vh;
+    background-color: aquamarine; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.chat-containers {
+    width: 55%;
+    height: 80vh;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+}
+
+.chat-profile {
+    background-color: rgb(88, 181, 150);
+    height: 12%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.chat-messages {
+    background-color: rgb(105, 216, 179);
+    height: 80%;
+    display: inline-flex;
+    flex-direction: column;
+    overflow: auto;
+    padding: 1rem 0.5rem;
+}
+
+.chat-message {
+    word-break:break-all;
+}
+
+.sended-message {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.received-text {
+    background-color: #c9c8c8;
+    border-radius: 1rem;
+    padding: 0.25rem 0.8rem;
+    margin: 0.25rem;
+}
+
+.sended-text {
+    background-color: rgb(132, 249, 164);
+    border-radius: 1rem;
+    padding: 0.25rem 0.8rem;
+    margin: 0.25rem;
+}
+
+.chat-avatar {
+    height: 80%;
+    margin-left: 2%;
+    width: auto;
+}
+
+.chat-name {
+    margin: auto;
+    font-size: 2rem;
+}
+
+.chat-logout {
+    margin-right: 2%;
+}
+
+.chat-input {
+    background-color: rgb(88, 181, 150);
+    height: 8%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2%;
+    gap: 1%;
+}
+
+.text-input {
+    border: 1px;
+    padding: auto 2%;
+    width: 95%;
+    border-radius: 0.75rem;
+}
+
+.send-button {
+    width: 5%;
+    background-color: rgb(88, 181, 150);
+    border: none;
+    margin-right: 2%;
+    color: white;
+}

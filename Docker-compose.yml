@@ -1,0 +1,56 @@
+version: "2"
+services:
+    frontend:
+        build: ./frontend
+        image: frontend
+        container_name: frontend
+        restart: always
+        ports:
+            - "3000:3000"
+        volumes:
+            - ./frontend:/frontend
+            - /frontend/node_modules
+        links:
+            - backend:backend
+        networks:
+            - webappnetwork
+    backend:
+        build: ./backend
+        image: backend
+        container_name: backend
+        restart: always
+        ports:
+            - "5000:5000"
+        volumes:
+            - ./backend:/backend
+            - /backend/node_modules
+        env_file:
+            - .env
+        depends_on:
+            - mongo
+        networks:
+            - webappnetwork
+        environment:
+            - DATABASE_HOST=mongo
+            - MONGODB_USERNAME=${USERNAME}
+            - MONGODB_PASSWORD=${PASSWORD}
+        links:
+            - mongo:mongo
+    mongo:
+        container_name: mongo
+        env_file:
+            - .env
+        image: mongo:latest
+        ports:
+        - 27017:27017
+        environment:
+            MONGO_INITDB_ROOT_USERNAME: ${USERNAME}
+            MONGO_INITDB_ROOT_PASSWORD: ${PASSWORD}
+            # MONGO_INITDB_DATABASE: db
+        volumes:
+            - ./mongo-init.js:/docker-entrypoint-initdb.d/mongo-init.js:ro
+        networks:
+            - webappnetwork
+networks:
+    webappnetwork:
+        driver: bridge   
