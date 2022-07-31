@@ -16,18 +16,18 @@ PASSWORD=<enter password>
 docker-compose up
 ```
 ![docker-compose](https://user-images.githubusercontent.com/54474175/182028763-a5838d4b-3a1c-4007-a352-b7c39ec56cb6.JPG)
-# How to use
-1) Open 2 tab of browser (one tab in normal mode and another tab in incognito mode) and go to http://localhost:3000/
-<img src="https://github.com/korawichtawan/chat-app/blob/master/images/first-page.JPG" width=35% height=35%>
-2) Go to register page to create new account and choose avatar (both tab).
+# How to use 
+Open 2 tab of browser (one tab in normal mode and another tab in incognito mode) and go to http://localhost:3000/<br />
+<img src="https://github.com/korawichtawan/chat-app/blob/master/images/first-page.JPG" width=35% height=35%><br />
+Go to register page to create new account and choose avatar (both tab).
 <p>
 <img src="https://github.com/korawichtawan/chat-app/blob/master/images/register-first-user.JPG" width=35% height=35%>
 <img src="https://github.com/korawichtawan/chat-app/blob/master/images/choose-avatar.JPG" width=35% height=35%>
 <p>
-3) After choose avatar, you will see a chat page (refresh page to update friends list).
+After choose avatar, you will see a chat page (refresh page to update friends list).
 <p>
 <img src="https://github.com/korawichtawan/chat-app/blob/master/images/chat-page.JPG" width=35% height=35%>
 <img src="https://github.com/korawichtawan/chat-app/blob/master/images/chat-page-2.JPG" width=35% height=35%>
 <p>
-4) Click on your friend's profile to talk with him/her.<br />
+Click on your friend's profile to talk with him/her.<br />
 <img src="https://github.com/korawichtawan/chat-app/blob/master/images/chat-message.JPG" width=35% height=35%>
